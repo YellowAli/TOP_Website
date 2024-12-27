@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body
+{
+    margin: 0;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Header and nav bar styling */
+
+.Header
+{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 180px; */
+    background-color: #1F2937;
+    align-items: center; 
+    color: white;
+}
+
+
+
+ul
+{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ************************************* */
+
+/* Page 1 Styling */
+
+.Page-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    gap:70px;
+    padding: 50px;
+    background-color: #1F2937;
+}
+
+.Website-Intro
+{
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    
+}
+
+.Website-Intro h1
+{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.Website-Intro p
+{
+    font-size: 18px;
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+.sign-up
+{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 600;
+
+    width: 120px;
+    padding: 9px 0;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.pg_1_img
+{
+    min-width: 0;
+    width: 480px;
+    height: auto;
+}
+
+/* ***************************** */
+
+/* Pade-2 Styling */
+
+.Page-2
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.Page-2 h1
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+}
+
+.card-holder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    min-width: 0;
+}
+
+.card h3
+{
+    text-align: center;
+}
+
+.card
+{
+    width: 200px;
+    min-width: 0;
+}
+
+.card img
+{
+    width: 200px;
+    height: auto;
+}
+
+/* ***************************** */
+
+/* Pade-3 Styling */
+
+.Page-3
+{
+    background-color: #E5E7EB;
+     
+}
+
+.Quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    min-width: 0px;
+}
+
+.box
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width:900px;
+    min-width: 0;
+
+    padding: 30px 50px;
+}
+
+.author{
+    min-width: 0;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+/* ***************************** */
+
+/* Pade-4 Styling */
+
+.Page-4
+{
+     margin: 80px auto;
+     padding: 0 50px;
+}
+
+.box-call
+{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+    background-color: #3882F6;
+    border-radius:20px;
+    min-width: 0px;
+    margin: 0;
+    padding: 40px 80px;
+
+
+}
+
+.Call_To_Action
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Call_To_Action h1
+{
+    font-size: 20px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.Call_To_Action p
+{
+    font-size: 16px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign_up_call
+{
+    align-self: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding: 7px 10px;
+    
+
+    width: 130px;
+    border-radius: 8px;
+    background-color:#3882F6;
+    border-color: #F9FAF8;
+
+}
+
+/* ***************************** */
+
+/* Footer Styling */
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 0px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+
